@@ -1,0 +1,29 @@
+{
+    "name": "adrianschubek/macro",
+    "description": "Macros & mixins for classes",
+    "type": "library",
+    "homepage": "https://docs.adriansoftware.de/macro",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Adrian Schubek",
+            "email": "adrian.schubek@gmail.com",
+            "homepage": "https://adriansoftware.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "adrianschubek\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "symfony/var-dumper": "5.0.x-dev",
+        "pestphp/pest": "^0.2.3"
+    }
+}
